@@ -1,0 +1,12 @@
+== README
+
+* a litte part of this project code is from https://github.com/Joseph-N/chatty
+* Ruby version 2.2.0
+* Rails 4.1.1
+
+* Steps
+  rails generate devise:install
+  rails generate devise user
+  rails g controller Users index
+  rails g migration AddNameToUser name:string
+
